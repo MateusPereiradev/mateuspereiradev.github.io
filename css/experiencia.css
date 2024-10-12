@@ -1,0 +1,113 @@
+.experiencia {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.experiencia-texto {
+  font-size: 1.5rem;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #525252;
+}
+.experiencia-texto strong {
+  color: #000000;
+}
+
+.experiencia .subtitulo {
+  color: #e0e0e0;
+}
+
+.projeto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f5f5f5;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  gap: 20px;
+}
+
+.projeto::before {
+  content: "";
+  background-image: linear-gradient(rgb(4, 241, 4), green);
+  position: absolute;
+  width: 4px;
+  height: 20px;
+  top: 20px;
+  left: -4px;
+}
+
+.experiencia-ano {
+  position: absolute;
+  left: -100px;
+  top: 20px;
+  width: 80px;
+  text-align: right;
+}
+
+.experiencia-lista {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-content: start;
+}
+
+.experiencia-lista li {
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.experiencia-paragrafo {
+  color: #525252;
+}
+
+.experiencia-h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .experiencia .subtitulo {
+    font-size: 7.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .experiencia .subtitulo {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+  }
+
+  .experiencia .subtitulo {
+    word-break: initial;
+    font-size: 4rem;
+  }
+  .experiencia {
+    gap: 40px;
+  }
+  .experiencia-texto {
+    font-size: 1.3rem;
+  }
+  .experiencia-ano {
+    left: 0px;
+    top: -18px;
+    text-align: left;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 600px) {
+  .experiencia .subtitulo {
+    font-size: 2rem;
+  }
+}

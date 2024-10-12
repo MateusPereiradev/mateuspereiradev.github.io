@@ -1,0 +1,28 @@
+.footer {
+  background-color: #000000;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 150px 20px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  color: #cccccc;
+}
+
+.footer-lista li {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.footer-direito {
+  font-size: 1.4rem;
+  color: #8f8f8f;
+}

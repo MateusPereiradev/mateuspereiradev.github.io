@@ -1,0 +1,32 @@
+body {
+  font-family: "fira-sans", arial, sans-ferif;
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.subtitulo {
+  font-size: 9rem;
+  word-break: break-all;
+  max-width: 4ch;
+}
