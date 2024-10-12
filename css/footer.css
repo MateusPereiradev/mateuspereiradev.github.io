@@ -26,3 +26,34 @@
   font-size: 1.4rem;
   color: #8f8f8f;
 }
+
+@media (max-width: 900px) {
+  .footer-texto {
+    font-size: 1.2rem;
+  }
+  .footer-lista li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    padding: 50px;
+    gap: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-texto {
+    font-size: 1rem;
+  }
+
+  .footer-lista li {
+    font-size: 1.3rem;
+  }
+
+  .footer-direito {
+    font-size: 1rem;
+  }
+}
