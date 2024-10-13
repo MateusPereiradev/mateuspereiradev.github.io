@@ -174,6 +174,7 @@
   .formacao .subtitulo {
     word-break: initial;
     font-size: 3rem;
+    color: #ffffff;
   }
 
   .formacao-idioma .formacao-h3::before {

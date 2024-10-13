@@ -91,6 +91,7 @@
   .experiencia .subtitulo {
     word-break: initial;
     font-size: 4rem;
+    color: #000000;
   }
   .experiencia {
     gap: 40px;
